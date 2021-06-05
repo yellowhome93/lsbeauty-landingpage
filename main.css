@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Lulo-CLean-1B";
+    src: url("assets/fonts/Lulo Clean One Bold.otf");
+}
+
+@font-face {
+    font-family: "Lulu-Clean-Outline";
+    src: url("assets/fonts/Lulu Clean Outline");
+}
+
+main {
+    background: url(assets/lsbeauty.webp);
+    height: 99vh;
+    width: 100%;
+    background-position: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden!important;
+    transform: translate(0px, 0px);
+    position: relative;
+    top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lulo-Clean-1B", sans-serif;
+    font-size: 6em!important;
+    font-weight: 900;
+    line-height: 1.35em!important;
+    margin: 205px 0 0 0!important;
+    color: #000;
+}
+
+.landing {
+    text-align: center;
+    font-family: "Lulo-Clean_Outline", sans-serif;
+    font-size: 1.6em;
+    color: #000;
+    letter-spacing: .15em;
+    font-weight: 100;
+    margin: 10px 0 0 0;
+}
+
+#lsb1 img, #lsb2 img, #lsb3 img, #lsb4 img {
+    width: 69px;
+    height: 65px;
+    position: fixed;
+}
+
+#lsb1 img {
+    top: 7vh;
+    right: 32vw;
+}
+
+#lsb2 img {
+    top: 41%;
+    left: 25%;
+}
+
+#lsb3 img {
+    top: 67%;
+    left: 32%;
+}
+
+#lsb4 img {
+    top: 61%;
+    right: 25.5%;
+}
