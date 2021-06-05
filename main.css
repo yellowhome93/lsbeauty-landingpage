@@ -9,7 +9,7 @@
 }
 
 main {
-    background: url(assets/lsbeauty.webp);
+    background-image: url(assets/lsbeauty.webp);
     height: 99vh;
     width: 100%;
     background-position: unset;
@@ -65,4 +65,37 @@ h1 {
 #lsb4 img {
     top: 61%;
     right: 25.5%;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 12vw!important;
+        margin: 20vh 0 0 0!important;
+    }
+    
+    .landing {
+        font-size: 4vw;
+    }
+    
+    #lsb1 img, #lsb2 img, #lsb3 img, #lsb4 img {
+        width: 42px;
+        height: 39px;
+    }
+    
+    #lsb1 img {
+        right: 8vw;
+    }
+    
+    #lsb2 img {
+        left: 10%;
+    }
+    
+    #lsb3 img {
+        left: 10%;
+        top: 77%;
+    }
+    
+    #lsb4 img {
+        right: 10%;
+    }
 }
